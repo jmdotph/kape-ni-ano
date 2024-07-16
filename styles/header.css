@@ -1,0 +1,181 @@
+.header {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  position: fixed;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-right: 12px;
+  background-color: white;
+  z-index: 1500;
+  border-bottom: 1px solid rgb(222, 222, 222);
+}
+/* LEFT SECTION */
+.header-left-section {
+  display: flex;
+  align-items: center;
+}
+/* .img-menu {
+  height: 20px;
+  margin-right: 24px;
+  margin-left: 24px;
+  cursor: pointer;
+} */
+.img-full-logo {
+  height: 34px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 6px;
+  border-style: solid;
+  border-color: #52423B;
+  border-width: 1px;
+  margin-right: 8px;
+}
+.shop-name {
+  font-size: 18px;
+  color: #52423B;
+  text-decoration: none;
+}
+
+
+/* MIDDLE SECTION */
+/* .header-middle-section {
+  flex: 1;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.input-search {
+  height: 36px;
+  flex: 1;
+  padding-left: 10px;
+  width: 0;
+  border-width: 1px;
+  border-color: rgb(195, 195, 195);
+  border-style: solid;
+  font-size: 16px;
+  border-end-start-radius: 18px;
+  border-start-start-radius: 18px;
+}
+.input-search::placeholder {
+  font-size: 14px;
+  color: #c5c5c5;
+}
+.input-search:focus {
+  outline: 1px solid rgb(129, 169, 255);
+}
+.btn-search {
+  height: 40px;
+  width: 64px;
+  border-top-right-radius: 19px;
+  border-bottom-right-radius: 19px;
+}
+.img-search {
+  height: 18px;
+  opacity: 0.8;
+} */
+
+/* RIGHT SECTION */
+.header-right-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-radius: 8px;
+}
+.img-facebook,
+.img-instagram {
+  cursor: pointer;
+  height: 26px;
+}
+.img-facebook {
+  height: 26px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.right-section-tooltip-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.right-section-tooltip {
+  position: absolute;
+  bottom: -75px;
+  background-color: rgb(77, 76, 76);
+  padding: 10px 6px;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 300;
+  opacity: 0;
+  color: white;
+  white-space: nowrap;
+  transition: 0.15s;
+  pointer-events: none;
+}
+
+.right-section-tooltip-container:hover .right-section-tooltip {
+  opacity: 1;
+}
+.div-telephone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-telephone{
+  height: 24px;
+  cursor: pointer;
+}
+.text-telephone-number {
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 4px;
+}
+
+@media (max-width: 1000px) {
+  /* .header-middle-section {
+    margin-left: 30px;
+  } */
+  .header-right-section {
+    margin-left: 20px;
+    width: fit-content;
+  }
+  .img-full-logo {
+    height: 30px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  /* .header-middle-section, */
+  .header-right-section {
+    margin-left: 10px;
+  }
+  .img-full-logo {
+    height: 24px;
+    cursor: pointer;
+    margin-left: 6px;
+  }
+  .header-right-section {
+    width: fit-content;
+    padding: 0;
+  }
+  .img-facebook {
+    margin: 0;
+    padding: 0 8px;
+  }
+.text-telephone-number {
+  font-size: 14px;
+  }
+  .shop-name {
+    font-size: 14px;
+  }
+}

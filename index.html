@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kape ni ano</title>
+  <link rel="icon" href="img/logo.png">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/general.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  
+
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-left-section">
+      <!-- <img class="img-menu" src="img/hamburger-menu.png"> -->
+      <a href="index.html">
+        <img class="img-full-logo" src="img/kape-ni-ano-logo.png">
+      </a>
+      <a href="index.html" class="shop-name">Kape ni ano</a>
+    </div>
+
+    <!-- <div class="header-middle-section">
+      <input class="input-search" type="text" placeholder="Search">
+    </div> -->
+
+    <div class="header-right-section">
+      <div class="right-section-tooltip-container">
+        <a href="https://www.instagram.com/jmdotph/" target="_blank">
+          <img class="img-instagram" src="img/instagram-dark.png">
+        </a>
+        <div class="right-section-tooltip">Instagram</div>
+      </div>
+      <div class="right-section-tooltip-container">
+        <a href="https://www.facebook.com/profile.php?id=61562574308284&mibextid=ZbWKwL" target="_blank">
+          <img class="img-facebook" src="img/facebook-app-symbol.png">
+        </a>
+        <div class="right-section-tooltip">Facebook</div>
+      </div>
+      <div class="div-telephone">
+        <img class="img-telephone" src="img/telephone-dark.png">
+        <p class="text-telephone-number">+639108444090</p>
+      </div>
+    </div>
+  </header>
+  <div class="div-burger-menu">
+    <img src="img/hamburger-menu.svg" class="img-hamburger-menu" onclick="removeNavBar()">
+  </div>
+  <!-- <nav class="nav-bar" style="display: block;">
+    
+    <ul class="ul-menu">
+      <li><a href="">29 &sol; 39 </a></li>
+      <li><a href="">Breakfast</a></li>
+      <li><a href="">Coffee</a></li>
+      <li><a href="">Milk Tea</a></li>
+      <li><a href="">Frappe</a></li>
+      <li><a href="">Lemonade</a></li>
+      <li><a href="">Pizza</a></li>
+      <li><a href="">Pasta</a></li>
+      <li><a href="">Chicken</a></li>
+      <li><a href="">Smoothie</a></li>
+
+    </ul>
+  </nav> -->
+
+  <main>
+    <section>
+      <div class="slider-container">
+        <div class="slider">
+          <div class="list">
+            <div class="item">
+              <img src="img/americano/hot-americano.jpg" alt="">
+            </div>
+            <div class="item">
+              <img src="img/americano/iced-americano.jpg" alt="">
+            </div>
+            <div class="item">
+              <img src="img/spanish-latte/iced-spanish-latte.jpg" alt="">
+            </div>
+            <div class="item">
+              <img src="img/spanish-latte/spanish-late.jpg" alt="">
+            </div>
+            <div class="item">
+              <img src="img/mocha-almond/hot-almond-coffee.jpg" alt="">
+            </div>
+
+            <div class="item">
+              <img src="img/mocha-almond/iced-mocha-almond-2..jpg" alt="">
+            </div>
+            <div class="item">
+              <img src="img/latte/ided-latte.jpg" alt="">
+            </div>
+            <div class="item">
+              <img src="img/latte/hot-latte.jpg" alt="">
+            </div>
+            <div class="item">
+              <img src="img/strawberry-latte/strawberry-latte.jpg" alt="">
+            </div>
+            <div class="item">
+              <img src="img/irish-whiskey/irish-whiskey.jpeg" alt="">
+            </div>
+            <!--<div class="item">
+              <img src="xiemi/regular-fruit-green-tea.jpg" alt="">
+            </div>
+            <div class="item">
+              <img src="xiemi/shawarma-chicken-wings.jpg" alt="">
+            </div>
+            <div class="item">
+              <img src="xiemi/waffle.jpg" alt="">
+            </div>
+            <div class="item">
+              <img src="xiemi/yogurt-smoothie-series.jpg" alt="">
+            </div> -->
+          </div>
+          <div class="buttons">
+            <button class="btn-prev" id="prev">&#60;</button>
+            <button class="btn-next" id="next">&#62;</button>
+          </div>
+          <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+
+            <!--<li></li>
+            <li></li>
+            <li></li>
+            <li></li> -->
+          </ul>
+        </div>
+      </div>
+
+      <div class="div-random">Random</div>
+      <!-- grid -->
+      <div class="grid-container">
+        <div class="div-item-container">
+          <div class="div-item-preview">
+            <div class="div-tooltip">PHP 59</div>
+            <img class="img-item" src="img/americano/hot-americano.jpg">
+          </div>
+          <div class="div-info-flex">
+            <p class="text-item-name">Hot Americano</p>
+            <p class="text-info">
+              Just your regular coffee. Yet, ewan ko lang kung makatulog ka. HAHAHAHA.
+            </p>
+          </div>
+        </div>
+
+        <div class="div-item-container">
+          <div class="div-item-preview">
+            <div class="div-tooltip">PHP 59</div>
+            <img class="img-item" src="img/americano/iced-americano.jpg">
+          </div>
+          <div class="div-info-flex">
+            <p class="text-item-name">Iced Amercano</p>
+            <p class="text-info">
+              Mainit yung isa, ito malamig. 
+            </p>
+          </div>
+        </div>
+
+        <div class="div-item-container">
+          <div class="div-item-preview">
+            <div class="div-tooltip">PHP 59</div>
+            <img class="img-item" src="img/spanish-latte/spanish-late.jpg">
+          </div>
+          <div class="div-info-flex">
+            <p class="text-item-name">Hot Spanish Latte</p>
+            <p class="text-info">
+              Di ko alam kung paano i-explain itong kape. Hanap mo naman yung Hot and masarap diba? Bili ka na. 
+            </p>
+          </div>
+
+        </div>
+
+        <div class="div-item-container">
+          <div class="div-item-preview">
+            <div class="div-tooltip">PHP 59</div>
+            <img class="img-item" src="img/spanish-latte/iced-spanish-latte.jpg">
+          </div>
+          <div class="div-info-flex">
+            <p class="text-item-name">Iced Spanish Latte</p>
+            <p class="text-info">
+              Mainit? Ito, Iced Spanish Latte para sayo (Di pa rin alam kung paano i-explain). Bili ka na. Please 🥺.
+          </div>
+
+        </div>
+
+        <div class="div-item-container">
+          <div class="div-item-preview">
+            <div class="div-tooltip">PHP 59</div>
+            <img class="img-item" src="img/mocha-almond/iced-mocha-almond-2..jpg">
+          </div>
+          <div class="div-info-flex">
+            <p class="text-item-name">Iced Mocha Almond</p>
+            <p class="text-info">
+              Iced Mocha Almond para di ka magmukhang Balmond. 
+            </p>
+          </div>
+        </div>
+
+        <div class="div-item-container">
+          <div class="div-item-preview">
+            <div class="div-tooltip">PHP 59</div>
+            <img class="img-item" src="img/mocha-almond/hot-almond-coffee.jpg">
+          </div>
+          <div class="div-info-flex">
+            <p class="text-item-name">Hot Mocha Almond</p>
+            <p class="text-info"> 
+              Try our Hot Mocha Almond for only 59 pesos! Masarap sabi ni owner.
+            </p>
+          </div>
+        </div>
+
+        <div class="div-item-container">
+          <div class="div-item-preview">
+            <div class="div-tooltip">PGP 59</div>
+            <img class="img-item" src="img/latte/ided-latte.jpg">
+          </div>
+          <div class="div-info-flex">
+            <p class="text-item-name">Iced Latte</p>
+            <p class="text-info"> 
+              Chilled coffee beverage that&apos;s made by mixing 
+              espresso with chilled milk, simple syrup, and ice cubes. 
+              Galing kay Google itong description.
+            </p>
+          </div>
+        </div>
+
+        <div class="div-item-container">
+          <div class="div-item-preview">
+            <div class="div-tooltip">PHP 59</div>
+            <img class="img-item" src="img/latte/hot-latte.jpg">
+          </div>
+          <div class="div-info-flex">
+            <p class="text-item-name">Hot Latte</p>
+            <p class="text-info"> 
+              Hot coffee beverage that&apos;s made by mixing 
+              espresso with hot milk and simple syrup.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="div-item-container">
+          <div class="div-item-preview">
+            <div class="div-tooltip">PHP 59</div>
+            <img class="img-item" src="img/strawberry-latte/strawberry-latte.jpg">
+          </div>
+          <div class="div-info-flex">
+            <p class="text-item-name">Iced Strawberry Latte</p>
+            <p class="text-info"> 
+              This iced strawberry latte is perfectly balanced with sweet strawberry syrup, 
+              bold espresso and creamy milk! It&apos;s also easily customizable, 
+              quick to whip up and makes for a refreshing treat on a warm day!
+            </p>
+          </div>
+        </div>
+
+        <div class="div-item-container">
+          <div class="div-item-preview">
+            <div class="div-tooltip">PHP 99</div>
+            <img class="img-item" src="img/irish-whiskey/irish-whiskey.jpeg">
+          </div>
+          <div class="div-info-flex">
+            <p class="text-item-name">Irish Coffee Whiskey</p>
+            <p class="text-info"> 
+              a caffeinated alcoholic drink consisting of Irish whiskey, hot coffee and sugar,
+               which has been stirred and topped with cream.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="div-item-container">
+          <a href="about-us.html" class="about-us">
+            <div class="div-item-preview">
+              <!-- <div class="div-tooltip">PHP 99</div> -->
+              <img class="img-item" src="img/kape-ni-ano-logo.png">
+            </div>
+            <div class="div-info-flex">
+              <p class="text-item-name">About us</p>
+              <p class="text-info"> 
+                Not satisfied to our coffee?
+                Click this to know more about us.
+              </p>
+            </div>
+
+          </a>
+        </div>
+
+
+      </div>
+
+    </section>
+  </main>
+
+  <script src="/script/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+body {
+  background-color: #ffffff;
+  padding-top: 100px;
+  margin: 0;
+  font-family: Roboto, Arial;
+}
+button {
+  border: none;
+  cursor: pointer;
+  transition: 0.15s;
+  border: 1px solid rgb(228, 228, 228);
+}
+input {
+  background-color: white;
+  padding-left: 14px;
+  border: none;
+}
+p {
+  color: white;
+  margin: 0;
+}
+div {
+  margin: 0;
+}
