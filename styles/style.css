@@ -248,7 +248,6 @@
     width: 100%;
     border-radius: 2px;
     object-fit: cover;
-    cursor: pointer;
 }
 
 .div-info-flex {
@@ -286,6 +285,6 @@
 .btn-buy:active {
     opacity: 0.7;
 } */
-.about-us {
+/* .about-us {
     text-decoration: none;
-}
+} */

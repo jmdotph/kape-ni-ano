@@ -8,9 +8,8 @@
   left: 0;
   right: 0;
   padding-right: 12px;
-  background-color: white;
+  background-color: #52423B;
   z-index: 1500;
-  border-bottom: 1px solid rgb(222, 222, 222);
 }
 /* LEFT SECTION */
 .header-left-section {
@@ -29,14 +28,10 @@
   border-radius: 6px;
   cursor: pointer;
   margin-left: 6px;
-  border-style: solid;
-  border-color: #52423B;
-  border-width: 1px;
-  margin-right: 8px;
 }
 .shop-name {
   font-size: 18px;
-  color: #52423B;
+  color: white;
   text-decoration: none;
 }
 
@@ -92,10 +87,9 @@
 .img-facebook,
 .img-instagram {
   cursor: pointer;
-  height: 26px;
+  height: 24px;
 }
-.img-facebook {
-  height: 26px;
+.img-instagram {
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -130,12 +124,12 @@
   justify-content: center;
 }
 .img-telephone{
-  height: 24px;
+  height:24px;
   cursor: pointer;
 }
 .text-telephone-number {
-  color: black;
-  font-weight: 400;
+  color: white;
+  font-weight: 300;
   font-size: 18px;
   margin-left: 4px;
 }
@@ -168,7 +162,7 @@
     width: fit-content;
     padding: 0;
   }
-  .img-facebook {
+  .img-instagram {
     margin: 0;
     padding: 0 8px;
   }
