@@ -178,7 +178,7 @@
     display: flex;
     color: white;
     height: 40px;
-    background-color: #52423B;
+    background-color: red;
     font-size: 20px;
     margin-top: 50px;
     align-items: center;
@@ -238,7 +238,7 @@
     font-weight: 500;
     top: 10px;
     right: 10px;
-    background-color: #52423B;
+    background-color: red;
     padding: 4px 10px;
     color: white;
     border-radius: 2px;

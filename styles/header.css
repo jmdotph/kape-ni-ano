@@ -8,7 +8,8 @@
   left: 0;
   right: 0;
   padding-right: 12px;
-  background-color: #52423B;
+  background-color: white;
+  border-bottom: solid 1px red;
   z-index: 1500;
 }
 /* LEFT SECTION */
@@ -31,7 +32,7 @@
 }
 .shop-name {
   font-size: 18px;
-  color: white;
+  color: red;
   text-decoration: none;
 }
 
