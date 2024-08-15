@@ -17,12 +17,6 @@
   display: flex;
   align-items: center;
 }
-/* .img-menu {
-  height: 20px;
-  margin-right: 24px;
-  margin-left: 24px;
-  cursor: pointer;
-} */
 .img-full-logo {
   height: 34px;
   padding: 6px 10px;
@@ -36,46 +30,6 @@
   text-decoration: none;
 }
 
-
-/* MIDDLE SECTION */
-/* .header-middle-section {
-  flex: 1;
-  max-width: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 50px;
-}
-
-.input-search {
-  height: 36px;
-  flex: 1;
-  padding-left: 10px;
-  width: 0;
-  border-width: 1px;
-  border-color: rgb(195, 195, 195);
-  border-style: solid;
-  font-size: 16px;
-  border-end-start-radius: 18px;
-  border-start-start-radius: 18px;
-}
-.input-search::placeholder {
-  font-size: 14px;
-  color: #c5c5c5;
-}
-.input-search:focus {
-  outline: 1px solid rgb(129, 169, 255);
-}
-.btn-search {
-  height: 40px;
-  width: 64px;
-  border-top-right-radius: 19px;
-  border-bottom-right-radius: 19px;
-}
-.img-search {
-  height: 18px;
-  opacity: 0.8;
-} */
 
 /* RIGHT SECTION */
 .header-right-section {
@@ -168,7 +122,7 @@
     padding: 0 8px;
   }
 .text-telephone-number {
-  font-size: 14px;
+  font-size: 1.4rem;
   }
   .shop-name {
     font-size: 14px;

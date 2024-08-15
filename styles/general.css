@@ -1,8 +1,12 @@
+html {
+  font-size: 62.5%;
+  
+}
 body {
-  background-color: #ffffff;
-  padding-top: 100px;
+  background-color: white;
   margin: 0;
   font-family: Roboto, Arial;
+  padding-top: 64px;
 }
 button {
   border: none;
